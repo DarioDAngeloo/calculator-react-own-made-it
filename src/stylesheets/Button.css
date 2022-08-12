@@ -1,0 +1,29 @@
+.btn-container {
+  height: 83px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: rgb(232, 187, 129);
+  /* color: rgb(55, 15, 0); */
+  font-size: 38px;
+  border-radius: 25px;
+  border: 2px solid white;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn-container:hover {
+  background-color: chocolate;
+}
+
+.operator {
+  background-color: rgb(168, 79, 91);
+}
+
+.operator:hover {
+  background-color: maroon;
+}
