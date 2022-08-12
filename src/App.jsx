@@ -17,7 +17,7 @@ function App() {
     if (input) {
       setInput(evaluate(input));
     } else {
-      alert("Please!! Insert a valid value idiot!");
+      alert("Please!! Insert a Valid Value!");
     }
   };
 
