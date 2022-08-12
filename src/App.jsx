@@ -30,28 +30,28 @@ function App() {
       <div className="calculator-container">
         <Display input={input} />
         <div className="row ">
-          <Button addThisValue={addInput}>1 </Button>
-          <Button addThisValue={addInput}>2 </Button>
-          <Button addThisValue={addInput}>3 </Button>
-          <Button addThisValue={addInput}>+ </Button>
+          <Button addThisValue={addInput}>1</Button>
+          <Button addThisValue={addInput}>2</Button>
+          <Button addThisValue={addInput}>3</Button>
+          <Button addThisValue={addInput}>+</Button>
         </div>
         <div className="row ">
-          <Button addThisValue={addInput}>4 </Button>
-          <Button addThisValue={addInput}>5 </Button>
-          <Button addThisValue={addInput}>6 </Button>
-          <Button addThisValue={addInput}>- </Button>
+          <Button addThisValue={addInput}>4</Button>
+          <Button addThisValue={addInput}>5</Button>
+          <Button addThisValue={addInput}>6</Button>
+          <Button addThisValue={addInput}>-</Button>
         </div>
         <div className="row ">
-          <Button addThisValue={addInput}>7 </Button>
-          <Button addThisValue={addInput}>8 </Button>
-          <Button addThisValue={addInput}>9 </Button>
-          <Button addThisValue={addInput}>* </Button>
+          <Button addThisValue={addInput}>7</Button>
+          <Button addThisValue={addInput}>8</Button>
+          <Button addThisValue={addInput}>9</Button>
+          <Button addThisValue={addInput}>*</Button>
         </div>
         <div className="row ">
-          <Button addThisValue={addInput}>. </Button>
-          <Button addThisValue={addInput}>0 </Button>
-          <Button addThisValue={result}>= </Button>
-          <Button addThisValue={addInput}>/ </Button>
+          <Button addThisValue={addInput}>.</Button>
+          <Button addThisValue={addInput}>0</Button>
+          <Button addThisValue={result}>=</Button>
+          <Button addThisValue={addInput}>/</Button>
         </div>
         <div className="row ">
           <Clear reset={() => setInput("")}>Clear</Clear>
